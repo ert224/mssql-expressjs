@@ -5,12 +5,15 @@ const app = express();
 
 var config = {
     server:"192.168.0.86",
+    port:1401,
     database:"ModelTesterDatabase",
     user:"admin",
-    password:"monkey24",
+    password:"Macbook2024%",
     options:{
         trustedConnection:true,
-        encrypt:false
+        encrypt:false,
+        enableArithAbort: true
+
     }
 }
 
